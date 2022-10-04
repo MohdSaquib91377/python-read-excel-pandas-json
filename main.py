@@ -17,4 +17,4 @@ with open("Doctors _Login _Details_with_Clinic _manager _email.json","r") as f:
     data = json.load(f)
     
 for item in data:
-    print(f"{item['Clinic Manager  ID ']} ------> {item['Official Id']}   ------> {item['Map Co-ordinates']}")
+    print(f"{item['Clinic Manager  ID ']} -----> {item['Official Id']}   -----> {item['Map Co-ordinates']}")
